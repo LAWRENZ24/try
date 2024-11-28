@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 20px; /* Padding around the body */
+}
+
+.wishlist-container {
+    max-width: 600px; /* Maximum width of the wishlist */
+    margin: auto; /* Center the container */
+    background: #ffffff; /* White background for the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Deeper shadow for depth */
+    padding: 30px; /* Padding inside the container */
+}
+
+/* Title Styles */
+h1 {
+    text-align: center; /* Center the title */
+    color: #333; /* Dark gray color for the title */
+    margin-bottom: 10px; /* Space below the title */
+    font-size: 2.5em; /* Larger font size for the title */
+    font-weight: bold; /* Bold title */
+}
+
+/* Note Styles */
+.subtitle {
+    text-align: center; /* Center the note */
+    color: #555; /* Medium gray color for the note */
+    font-size: 1.2em; /* Slightly larger font size for the note */
+    margin-bottom: 20px; /* Space below the note */
+}
+
+/* Wishlist Styles */
+.wishlist {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove padding */
+}
+
+/* Wishlist Item Styles */
+.wishlist-item {
+    border-bottom: 1px solid #e0e0e0; /* Light gray border between items */
+    padding: 15px 0; /* Padding for each item */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.wishlist-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.wishlist-item:hover {
+    background-color: #f9f9f9; /* Light background on hover */
+}
+
+.item-details {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+}
+
+/* Item Title Styles */
+.item-details h2 {
+    margin: 0; /* Remove default margin */
+    font-size: 1.4em; /* Font size for item titles */
+    color: #007BFF; /* Primary color for item titles */
+}
+
+/* Item Description Styles */
+.item-details p {
+    margin: 5px 0; /* Space between paragraphs */
+    color: #666; /* Light gray color for descriptions */
+}
+
+/* Link Styles */
+.item-details a {
+    text-decoration: none; /* Remove underline from links */
+    color: #9900ff; /* Bootstrap primary color for links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.item-details a:hover {
+    color: #9900ff; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .wishlist-container {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Adjust title size */
+    }
+
+    .subtitle {
+        font-size: 1.1em; /* Adjust subtitle size */
+    }
+
+    .item-details h2 {
+        font-size: 1.2em; /* Adjust item title size */
+    }
+}

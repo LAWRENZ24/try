@@ -1,14 +1,74 @@
 <!DOCTYPE html>
-<h1><strong>Amber </strong><i>wishlist<i></h1>
- Indi tanan, maskin diin lang ikaw lang pili
- <h3><button><a href= 'https://smmarkets.ph/20254827-lotus-biscoff-spread-smooth-400g.html#'>biscoff spread</a></button>
- <button><a href= 'https://ph.shp.ee/WWpfPDu'>pouch (light pink)</a></button>
- <button><a href= 'https://vt.tiktok.com/ZSjd76YNK/'>T-shirt (white)</a></button></h3>
- 
- <h3></h3><button><a href= 'https://ph.shp.ee/uytE6xP'>Mascara</a></button>
- <button><a href= 'https://vt.tiktok.com/ZSjdvspLb/'>Make-up Brush Set</a></button>
- <button><a href= 'https://ph.shp.ee/v5pDCxK'>Hair Mist</a></button> </h3>
- 
- <h3><button><a href= 'https://ph.shp.ee/ekmNLmy'>Blush(#520)</a></button>
- <button><a href= 'https://vt.tiktok.com/ZSjdvbHt3/'>pouch (charcoal)</a></button></h3>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amber Wishlist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> <!-- Updated Font Awesome link -->
+</head>
+<body>
+    <style>
+        .wishlist-container a { text-decoration: none; }
+        .wishlist-container h1 {
+            display: flex; /* Use flexbox for alignment */
+            align-items: center; /* Center items vertically */
+        }
+        .wishlist-container h1 i,
+        .item-details i { /* Apply to both header and item icons */
+            margin-right: 10px; /* Space between icon and text */
+            color: #9900ff; /* Change icon color to purple */
+        }
+    </style>
+    <div class="wishlist-container">
+        <h1><i class="fas fa-heart"></i> Amber Wishlist</h1> <!-- Added icon here -->
+        <p class="subtitle"><b><i>Indi tanan, maskin diin lang ikaw lang pili</i></b></p>
+        <ul class="wishlist">
+            <li class="wishlist-item">
+                <a href="https://smmarkets.ph/20254827-lotus-biscoff-spread-smooth-400g.html" target="_blank">
+                    <div class="item-details">
+                        <h2><i class="fas fa-cookie-bite"></i> Biscoff Spread</h2>
+                    </div>
+                </a>
+            </li>
+            <li class="wishlist-item">
+                <a href="https://ph.shp.ee/WWpfPDu" target="_blank">
+                    <div class="item-details">
+                        <h2><i class="fas fa-shopping-bag"></i> Pouch <span>(Dark Pink)</span></h2>
+                    </div>
+                </a>
+            </li>
+            <li class="wishlist-item">
+                <a href="https://ph.shp.ee/v5pDCxK" target="_blank">
+                    <div class="item-details">
+                        <h2><i class="fas fa-spray-can"></i> Hair Mist</h2>
+                    </div>
+                </a>
+            </li>
+            <li class="wishlist-item">
+                <a href="https://ph.shp.ee/ekmNLmy" target="_blank">
+                    <div class="item-details">
+                        <h2><i class="fas fa-magic"></i> Blush <span>(#520)</span></h2>
+                    </div>
+                </a>
+            </li>
+            <li class="wishlist-item">
+                <a href="https://vt.tiktok.com/ZSjd76YNK/" target="_blank">
+                    <div class="item-details">
+                        <h2><i class="fas fa-tshirt"></i> T-Shirt <span>(Any Neutral Color)</span></h2>
+                    </div>
+                </a>
+            </li>
+            <li class="wishlist-item">
+                <a href="https://ph.shp.ee/g8xziQz" target="_blank">
+                    <div class="item-details">
+                        <h2><i class="fas fa-tshirt"></i> Skirt <span>(Small-Blue)</span></h2> <!-- Using fa-dress as an alternative -->
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
